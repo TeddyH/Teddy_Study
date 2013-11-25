@@ -1,7 +1,10 @@
-    <decorators>
+<decorators defaultdir="/decorators">
+    <decorator name="submenu" page="submenu_decorator.jsp">
+        <pattern>/sub/*</pattern>
+    </decorator>
 
-        <decorator name="mydecorator" page="/decorator.jsp">
-            <pattern>/*</pattern>
-        </decorator>
+    <decorator name="main" page="main_decorator.jsp">
+        <pattern>/*</pattern>
+    </decorator>
 
-    </decorators>
+</decorators>
